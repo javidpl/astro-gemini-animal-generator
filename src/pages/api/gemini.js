@@ -13,8 +13,8 @@ export const post = async ({ request }) => {
 
     const ai = new GoogleGenAI({ apiKey: import.meta.env.GEMINI_API_KEY })
 
-    // const instruction = `Generate a single illustration of ${prompt} for a biology book. The illustration should be a icon with style on black silloutes with ocasional flat grey areas when needed. It shoulb be extremely scientifiquely accurate, realistic and detailed, based on the caracteristics of each species, and representative if it's a class or family. The illustration should be designed to be display in a 100x100 px div without text. Generate an illustracion of ${prompt}`;
-    const instruction = `Generate a single illustration of ${prompt} for a biology book. The illustration should be a icon in black and white, just the animal. It shoulb be extremely scientifiquely accurate, realistic and detailed, based on the caracteristics of each species, and representative if it's a class or family. The illustration should be designed to be display in a 100x100 px div without text. Generate an illustracion of ${prompt}`;
+    const instruction = `Generate a single illustration of ${prompt} for a biology book. The illustration should be a icon with style on black silloutes with ocasional flat grey areas when needed. It shoulb be extremely scientifiquely accurate, realistic and detailed, based on the caracteristics of each species, and representative if it's a class or family. The illustration should be designed to be display in a 100x100 px div without text. Generate an illustracion of ${prompt}`;
+    // const instruction = `Generate a single illustration of ${prompt} for a biology book. The illustration should be a icon in black and white, just the animal. It shoulb be extremely scientifiquely accurate, realistic and detailed, based on the caracteristics of each species, and representative if it's a class or family. The illustration should be designed to be display in a 100x100 px div without text. Generate an illustracion of ${prompt}`;
 
 
     const templatePaths = [
